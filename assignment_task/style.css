@@ -1,0 +1,485 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    border: 1px solid black;
+    width: 180px;
+    display: flex;
+    padding: 5px;
+    border-radius: 4px;
+    background: #fff;
+}
+.logo img{
+    width: 18px;
+}
+.logo input{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+nav ul li a{
+    color: #fff;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    gap: 6rem;
+}
+nav ul{
+    gap: 3rem;
+    display: flex;
+    font-size: 18px;
+}
+
+.fa-solid.fa-bars {
+    display: none;
+    color: #fff;
+}
+#menu{
+    display: none;
+}
+
+/* navbar styling end */
+
+.container{
+    height: 100vh;
+    background-color: #FBFCFD;
+}
+.inside_cont{
+    /* border: 2px solid black; */
+    padding: 20px 12vw;
+    min-height: 100vh;
+    background-color: #FBFCFD;
+}
+.inside_cont h1{
+    padding-bottom: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 40px;
+    font-size: 14px;
+    color: #4B5665;
+}
+.one{
+    display: flex;
+}
+.main1{
+    display: flex;
+}
+.one img{
+    width: 13px;
+    height: 13px;
+}
+.one label{
+    margin-left: 5px;
+}
+.three{
+    display: flex;
+    align-items: center;
+}
+.three img{
+    width: 16px;
+    height: 16px;
+}
+
+.adj1{
+    padding: 0px 10px;
+}
+
+.child-1{
+    display: flex;
+    /* border: 1px solid blue; */
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 200px;
+    background-color: #fff;
+}
+.text-1{
+    width: 40%;
+}
+.text-1 p{
+    font-size: 13px;
+    color: #4B5665;
+}
+.monitor img{
+    width: 100px;
+}
+.monitor{
+    text-align: center;
+    font-size: 12px;
+    color: #626E79;
+}
+
+.quality{
+    height: 200px;
+    position: relative;
+}
+.viewBtn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 60px;
+    color: #fff;
+    background-color: #1B88F4;
+    border-radius: 6px;
+    border: none;
+    font-size: 11px;
+}
+
+.rating{
+    border: 1px solid black;
+    background-color: #F3F9FF;
+    text-align: center;
+    padding: 7px 12px;
+    border-radius: 6px;
+    border: none;
+}
+.show-down{
+    width: 14px;
+}
+.child-1 label{
+    font-size: 12px;
+}
+
+.rate-1{
+    font-size: 23px;
+    color: #074786;
+}
+.rate-2{
+    font-size: 12px;
+    color: #074786;
+}
+.rating img{
+    width: 35px;
+}
+
+.offer{
+    background-color: #F2F4F7;
+    display: inline;
+    padding: 4px;
+    font-size: 10px;
+}
+
+
+
+.end{
+    margin-top: 6px;
+}
+/* <---------------main section end-------------> */
+
+.tool_section lable{
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 6px 14px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #4B5665;
+    background-color: #fff;
+    border: none;
+}
+
+
+.tool_section{
+    margin-top: 20px;
+}
+
+.hosting_section{
+    color: #5C6874;
+    padding-top: 14px;
+    font-size: 12px;
+}
+.hosting_section label{
+    margin-left: 10px;
+}
+
+.Highlights{
+    margin-left: 10px;
+    background-color: #FFF4ED;
+    font-size: 12px;
+    color: #4B5665;
+}
+.Highlights span{
+    margin-right: 10px;
+    color: #1B88F4;
+}
+.Highlights li{
+    margin-top: 8px;
+}
+.high{
+    font-weight: 600;
+}
+.dock img{
+    width: 13px;
+}
+.dock{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+.dock label{
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+
+.course-1 img{
+    width: 100px;
+}
+
+.course-1{
+    text-align: center;
+}
+.course_main{
+    /* border: 1px solid blue; */
+    background-color: #fff;
+    width: 200px;
+}
+.course{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.web{
+    text-align: center;
+    color: #626E79;
+    font-size: 12px;
+    margin: 5px 0px;    
+}
+.comp{
+    color: #626E79;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    margin-bottom: 7px;
+}
+
+.mtn1{
+    color: #5C6874;
+}
+.mtn2{
+    color: #9FA9B3;
+    font-size: 12px;
+    padding-left: 2px;
+}
+.mtn3{
+    color: red;
+    font-size: 10px;
+    padding-left: 5px;
+}
+.deal-btn button{
+    padding: 9px 70px;
+    background-color: #1B88F4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 10px;
+}
+.deal-btn{
+    text-align: center;
+    margin: 10px 0px;
+
+}
+
+.course_section{
+    margin: 30px 0px;
+}
+.course_section h1{
+    margin-bottom: 20px;
+    color: #2C384A;
+    font-weight: 300;
+}
+.signup{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.register input{
+    padding: 10px 30px;
+    outline: none;
+}
+.register button{
+    outline: none;
+    padding: 10px;
+    background-color: #1B88F4;
+    color: #fff;
+    border: none;
+}
+
+.val{
+    font-size: 24px;
+    color: #5C6874;
+}
+
+.footer{
+    background-color: #212731;
+    color: #B6BDC4;
+    display: flex;
+    font-size: 12px;
+    min-height: 300px;
+    padding: 30px 50px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.category label{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.contact label{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.us{
+    display: flex;
+    align-items: center;
+}
+.us img{
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+}
+.category p{
+    margin-top: 20px;
+}
+.contact p{
+    margin-top: 20px;
+}
+
+/* <---------------------- media query -----------------> */
+
+@media only screen and (max-width:1058px){
+    .tool_section{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hosting_section{
+        display: flex;
+        flex-direction: column;
+    }
+    .hosting_section label{
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width:778px){
+    .child-1{
+        display: flex;
+        flex-direction: column;
+        min-height: 50vh;
+    }
+    .text-1{
+        display: none;
+    }
+    .course{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .course_main{
+        margin-top: 30px;
+    }
+    
+    .signup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .register{
+        margin-top: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        margin-top: 30px;
+    }
+    .us{
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    nav ul{
+        display: block;
+        position: fixed;
+        background-color: red;
+        left: -100%;
+        top: 40px;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: all 0.3s;
+    }
+    nav ul li{
+        margin-top: 70px;
+    }
+    #menu:checked ~ ul{
+        left: 0%;
+    }
+    .fa-solid.fa-bars{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 783px){
+    .main{
+        font-size: 10px;
+    }
+    .one img{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .main{
+        font-size: 7px;
+    }
+    .one img{
+        width: 7px;
+        height: 7px;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .register{
+        text-align: center;
+    }
+    .register input{
+        padding: 0px
+    }
+    .register button{
+        padding: 3px;
+        font-size: 10px;
+    }
+    .val{
+        font-size: 18px;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .logo{
+        width: 100px;
+    }
+}
